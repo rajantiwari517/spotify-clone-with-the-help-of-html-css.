@@ -1,0 +1,461 @@
+body{
+     font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  padding: 8px;
+}
+.main{
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    background-color: black;
+    width: 370px;
+    border-radius: 1rem;
+}
+.maincontent{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    margin-left: 10px;
+    height: 640px;
+}
+.maincontent::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Background of the scrollbar track */
+.maincontent::-webkit-scrollbar-track {
+    background: #121212;
+    border-radius: 10px;
+}
+
+/* The draggable scrollbar thumb */
+.maincontent::-webkit-scrollbar-thumb {
+    background: #5a5a5a;
+    border-radius: 10px;
+}
+
+/* Hover effect */
+.maincontent::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+}
+.player{
+    
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 72px;
+    background-color: black
+}
+.home{
+    width: 100%;
+    height: 150px;
+    background-color: #121212;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.home1 i{
+    padding-left: 25px;
+    padding-right: 15px;
+}
+.search i{
+     padding-left: 25px;
+    padding-right: 15px;
+}
+.home1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0.7;
+}
+.home1:hover{
+    opacity: 1;
+}
+.search{
+    opacity: 0.7;
+}
+.search:hover{
+    opacity: 1;
+}
+.library{
+    width: 100%;
+    height: 480px;
+    background-color: #121212;
+    border-radius: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+.library1{
+    padding-top: 10px ;
+   font-size: 1.5rem;
+}
+.library1 a{
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+.library1 a:hover{
+    opacity: 1;
+}
+.library1 i{
+    padding-left: 15px;
+     opacity: 0.7;
+}
+.library1 i:hover{
+    opacity: 1;
+}
+.playlist{
+    margin: 25px 5px;
+    background-color: #252525;
+    height: 200px;
+    border-radius: 1rem;
+}
+.podcast{
+    background-color: #252525;
+    height: 200px;
+    border-radius: 1rem;
+}
+.library::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Background of the scrollbar track */
+.library::-webkit-scrollbar-track {
+    background: #121212;
+    border-radius: 10px;
+}
+
+/* The draggable scrollbar thumb */
+.library::-webkit-scrollbar-thumb {
+    background: #5a5a5a;
+    border-radius: 10px;
+}
+
+/* Hover effect */
+.library::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+}
+.playlist .p1{
+    
+    height: 35px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 20px;
+    opacity: 0.7;
+}
+.playlist .p1:hover{
+    opacity: 1;
+}
+.playlist .p2{
+    height: 35px;
+      font-weight: bold;
+      font-size: 0.9rem;
+      padding-left: 10px;
+    padding-top: 10px;
+    opacity: 0.7;
+}
+.playlist .p2:hover{
+    opacity: 1;
+}
+.playlist button{
+    border-radius: 2rem;
+    font-size: 1.2rem;
+     margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.playlist button:hover{
+background-color: black;
+    color: white;
+    box-shadow: whitesmoke 3px 3px 7px;
+}
+.podcast .p1{
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 20px; 
+    opacity: 0.7;
+}
+.podcast .p1:hover{
+    opacity: 1;
+}
+.podcast .p2{
+    font-weight: bold;
+      font-size: 0.9rem;
+      padding-left: 10px;
+    padding-top: 10px;
+    opacity: 0.7;
+}
+.podcast .p2:hover{
+    opacity: 1;
+}
+.podcast button{
+    border-radius: 2rem;
+    font-size: 1.2rem;
+     margin-left: 10px;
+    margin-top: 10px; 
+}
+.podcast button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: whitesmoke 3px 3px 7px;
+}
+.heading{
+    display: flex;
+    margin: 10px 20px;
+}
+.leftarrow{
+    background-color: #252525;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    margin: 5px 10px;
+    opacity: 0.7;
+}
+.leftarrow:hover{
+    opacity: 1;
+}
+.rightarrow{
+      background-color: #252525;
+    border-radius: 50%;
+    font-size: 1.5rem;
+     margin: 5px 0px;
+     opacity: 0.7;
+}
+.rightarrow:hover{
+    opacity: 1;
+}.heading  .btn1{
+     border-radius: 2rem;
+    font-size: 1.2rem;
+    margin-left: 580px;
+    margin-right: 10px;
+    opacity: 0.7;
+}
+.heading  .btn1:hover{
+    opacity: 1;
+    background-color: black;
+    color: white;
+    box-shadow: whitesmoke 3px 3px 7px;
+}
+.heading  .btn2{
+     border-radius: 2rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+.heading  .btn2:hover{
+    opacity: 1;
+    background-color: black;
+    color: white;
+    box-shadow: whitesmoke 3px 3px 7px;
+}
+.setting{
+    border-radius: 50%;
+    background-color: #5a5a5a;
+    font-size: 1.2rem;
+    padding-top: 2px;
+    margin-top: 7px;
+    margin-left: 30px;
+}
+.recently_played{
+    
+    width: 100%;
+    height: 45px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding-left: 40px;
+}
+.cards{
+    margin-left: 20px;
+    /* height: 600px; */
+    
+    
+}
+.cards-content{
+    display: flex;
+}
+.cards-content2{
+    display: flex;
+}
+.card{
+   
+    height: 250px;
+    width: 190px;
+    padding: 10px;
+    border-radius: 1.15rem;
+    position: relative;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+    
+}
+.card:hover{
+ background-color: #5a5a5a;
+ 
+}
+.card img{
+    max-width: 100%;
+     border-radius: 1.15rem;
+}
+.card .ch{
+  font-weight: bold;
+}
+.card .parragraph{
+    padding-top: 5px;
+   font-size: small;
+   opacity: 0.7;
+}
+.heading{
+       position: fixed;
+    top: 0;
+    
+    
+    z-index: 10;
+}
+ .card-content3{
+    display: flex;
+ }
+ .footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .line{
+    border-top: 1px solid white;
+    opacity: 0.7;
+    width: 70%;
+    height: 70%;
+ }
+ .playlogo{
+    width: 2rem;
+    height: 2rem;
+    
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 150px;
+    opacity: 0;
+    
+ }
+ .card:hover .playlogo{
+    opacity: 1;
+ }
+ .player{
+    display: flex;
+ }
+ .song{
+    display: flex;
+    padding: 5px;
+  
+   width: 25%;
+ }
+ .heart{
+   position: absolute;
+   margin-left: 20px;
+   
+   width: 15px;
+   height: 15px;
+   opacity: 0;
+ }
+ .heart:checked~.fa-solid.fa-heart{
+    color: green;
+ }
+ 
+ .song img{
+    width: 62px;
+    height: 100%;
+ }
+ .player1{
+   
+  width: 50%;
+ }
+ .icons{
+  
+width: 25%;
+ display: flex;
+ padding-top: 20px;
+ }
+ .prop{
+    padding: 5px;
+    font-size: small;
+    height: 62px;
+    
+ }
+ .prop h3{
+    position: absolute;
+ }
+ .prop p{
+    margin-top: 40px;
+ }
+ .playericon{
+    padding-top: 20px;
+
+ }
+ .fa-solid{
+    font-size:large;
+    margin-left: 15px;
+
+ }
+ .volume{
+    padding-bottom: 3px;
+ }
+  .volume-slider{
+    
+    width: 120px;
+    height: 4px;
+   
+ } 
+ .volume-slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: white;
+} 
+.playercontrol{
+    height: 40px;
+}
+.icon1{
+    height: 50%;
+    margin-left: 260px;
+    /* transition: font-size; */
+
+
+}
+
+.icon1:hover{
+    opacity: 0.7;
+}
+.icon2:hover{
+    opacity: 0.7;
+}
+.icon3:hover{
+    opacity: 0.7;
+}
+.icon2{
+    height: 60%;
+    margin-left: 30px;
+}
+.icon3{
+    height: 50%;
+     margin-left: 30px;
+    margin-right: 90px;
+}
+.timebar{
+    width: 250px;
+    height: 5px;
+}
+.playerbar{
+    text-align: center;
+}
+ 
